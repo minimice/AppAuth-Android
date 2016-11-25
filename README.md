@@ -70,7 +70,7 @@ Both Custom URI Schemes (all supported versions of Android) and App Links
 In general, AppAuth can work with any Authorization Server (AS) that supports
 [native apps](https://tools.ietf.org/html/draft-ietf-oauth-native-apps),
 either through custom URI scheme redirects, or App Links.
-AS's that assume all clients are web-based or require clients to maintain
+ASes that assume all clients are web-based or require clients to maintain
 confidentiality of the client secrets may not work well.
 
 ## Building the Project
