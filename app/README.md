@@ -100,7 +100,7 @@ And an addition to `idp_configs_optional.xml` that looks like:
 <string name="myauth_auth_endpoint_uri">https://www.myauth.com/auth</string>
 <string name="myauth_token_endpoint_uri">https://www.myauth.com/token</string>
 <string name="myauth_scope_string">profile payment location</string>
-<string name="myauth_redirect_uri">https://demo.myauth.com/callback</string>
+<string name="myauth_auth_redirect_uri">https://demo.myauth.com/callback</string>
 ```
 
 With these properties defined, a new instance of IdentityProvider can be
