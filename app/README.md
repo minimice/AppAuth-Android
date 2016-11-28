@@ -73,7 +73,7 @@ additional instances of `IdentityProvider`. Assuming an service named
 5. A placeholder for the client ID, `myauth_client_id`, should be defined in
    `idp_configs.xml`.
 
-6. The redirect URI, `myauth_redirect_uri`, can either be defined in
+6. The redirect URI, `myauth_auth_redirect_uri`, can either be defined in
    `idp_configs_optional.xml` or `idp_configs.xml` dependent on whether this
    redirect URI is client ID specific. For instance, if it were just a
    web URL like `https://demo.myauth.com` then it could be placed in
